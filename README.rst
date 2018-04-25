@@ -53,14 +53,14 @@ NLTK requires some data to be installed separately (more details on `the NLTK we
 
 From the command line, you can download the required packages::
 
-    python -m nltk.downloader punkt stopwords reuters
+    python -m nltk.downloader punkt stopwords reuters wordnet
 
 Alternatively, from a Python interactive shell::
 
     >>> import nltk
     >>> nltk.download()
 
-Then use the GUI to select the requires packages (punkt, stopwords, reuters).
+Then use the GUI to select the requires packages (punkt, stopwords, reuters, wordnet).
 
 Tip: even if you can use "all" as package name to install all the NLTK data, it's not a great thing to do over a flakey conference wi-fi. This will download approx. 2Gb and if we all do it at the same time we'll kill the conference wi-fi :)
 
